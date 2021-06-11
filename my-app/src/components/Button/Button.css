@@ -1,0 +1,18 @@
+.button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: rgb(75, 75, 75);
+    
+}
+.button__add {
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: greenyellow;
+    color: darkgray;
+}

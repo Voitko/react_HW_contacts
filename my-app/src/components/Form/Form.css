@@ -1,0 +1,25 @@
+.form {
+    margin-top: 20px;
+    width: 90%;
+    min-height: 270px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+}
+.show {
+    display: flex;
+}
+input {
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    background-color: transparent;
+    
+}
+.buttons__group {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
